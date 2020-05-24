@@ -1,9 +1,17 @@
 .grid_container {
     display: grid;
-    grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+    width: 80%;
+
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
 }
 
-.grid_container img {
+.card {
     display: block;
-    width: 100%;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
 }

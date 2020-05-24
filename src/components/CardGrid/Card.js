@@ -1,12 +1,13 @@
 import React from 'react';
+import styles from './CardGrid.module.css';
 
 export default props => {
     const { image, title, caption } = props;
     return(
-        <div>
+        <div className={ styles.card }>
             <img src={ image }></img>
-            <h2> { title } </h2>
-            <h1> { caption } </h1>
+            <h4> { title } </h4>
+            <h5> { caption } </h5>
         </div>
     )
 }
