@@ -2,7 +2,7 @@
     background-color: black;
     opacity: .8;
     padding: 1.5%;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .top_nav_container ul {
@@ -21,7 +21,7 @@
     opacity: .8;
     padding: .85% 1.5%;
     border-bottom: .5px solid gray;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .bot_nav_container ul {

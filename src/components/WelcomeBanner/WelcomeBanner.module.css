@@ -1,0 +1,11 @@
+.welcome_container {
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.welcome_container p {
+    margin-top: 20px;
+    font-size: 12px;
+}
