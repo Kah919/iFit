@@ -2,6 +2,12 @@ import jillian from '../../images/jillians.jpg';
 import grand from '../../images/grand.jpg';
 import jogging from '../../images/jogging.jpg';
 import elliptical from '../../images/elliptical.jpg';
+import stretching from '../../images/stretching.jpg';
+import central from '../../images/central.jpg';
+import cycle from '../../images/cycle.jpg';
+
+
+
 
 const deck = () => {
     return [
@@ -26,14 +32,14 @@ const deck = () => {
             caption: 'weight loss',
         },
         { 
-            image: jillian,
-            title: 'Get Fit with Jilliian Michaels',
-            caption: 'weight loss',
+            image: cycle,
+            title: 'Off Season Weight Loss',
+            caption: 'cycling',
         },
         { 
-            image: grand,
-            title: 'Grand Canyon',
-            caption: 'incline trainer',
+            image: central,
+            title: 'Central Park',
+            caption: 'fitness',
         },
         { 
             image: jogging,

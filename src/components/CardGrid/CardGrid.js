@@ -8,68 +8,6 @@ import Card from './Card';
 import deck from './Deck';
 
 export default () => {
-    // const deck = [
-    //     { 
-    //         image: jillian,
-    //         title: 'Get Fit with Jilliian Michaels',
-    //         caption: 'weight loss',
-    //     },
-    //     { 
-    //         image: grand,
-    //         title: 'Grand Canyon',
-    //         caption: 'incline trainer',
-    //     },
-    //     { 
-    //         image: jogging,
-    //         title: 'Power Walk',
-    //         caption: 'walking',
-    //     },
-    //     { 
-    //         image: elliptical,
-    //         title: 'Elliptical Weight Loss',
-    //         caption: 'weight loss',
-    //     },
-    //     { 
-    //         image: jillian,
-    //         title: 'Get Fit with Jilliian Michaels',
-    //         caption: 'weight loss',
-    //     },
-    //     { 
-    //         image: grand,
-    //         title: 'Grand Canyon',
-    //         caption: 'incline trainer',
-    //     },
-    //     { 
-    //         image: jogging,
-    //         title: 'Power Walk',
-    //         caption: 'walking',
-    //     },
-    //     { 
-    //         image: elliptical,
-    //         title: 'Elliptical Weight Loss',
-    //         caption: 'weight loss',
-    //     },
-    //     { 
-    //         image: jillian,
-    //         title: 'Get Fit with Jilliian Michaels',
-    //         caption: 'weight loss',
-    //     },
-    //     { 
-    //         image: grand,
-    //         title: 'Grand Canyon',
-    //         caption: 'incline trainer',
-    //     },
-    //     { 
-    //         image: jogging,
-    //         title: 'Power Walk',
-    //         caption: 'walking',
-    //     },
-    //     { 
-    //         image: elliptical,
-    //         title: 'Elliptical Weight Loss',
-    //         caption: 'weight loss',
-    //     },
-    // ]
 
     const createCards = () => {
         const data = deck()
@@ -77,8 +15,12 @@ export default () => {
     }
 
     return(
-        <div className={ styles.grid_container }>
-            { createCards() }
+        <div className={ styles.parent_container }>
+            <div className={ styles.grid_container }>
+                { createCards() }
+            </div>
+
+            <button> View More </button>
         </div>
     )
 }
