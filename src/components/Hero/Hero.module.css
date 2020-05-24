@@ -1,0 +1,17 @@
+
+.hero_container {
+    background-image: url("../../images/stretching.jpg");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.text_container {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 5%
+}
+

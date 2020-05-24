@@ -1,0 +1,35 @@
+.top_nav_container {
+    background-color: black;
+    opacity: .8;
+    padding: 1.5%;
+    font-size: 12px;
+}
+
+.top_nav_container ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_nav_container a {
+    color: white;
+    padding: 5px;
+}
+
+
+.bot_nav_container {
+    background-color: white;
+    opacity: .8;
+    padding: .85% 1.5%;
+    border-bottom: .5px solid gray;
+    font-size: 12px;
+}
+
+.bot_nav_container ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bot_nav_container a {
+    color: gray;
+    padding: 5px;
+}
