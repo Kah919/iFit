@@ -2,6 +2,7 @@ import React from 'react';
 import NavBarContainer from './NavBar/NavBarContainer';
 import Hero from './Hero/Hero';
 import WelcomeBanner from './WelcomeBanner/WelcomeBanner';
+import CardGrid from './CardGrid/CardGrid';
 
 
 export default () => {
@@ -9,6 +10,7 @@ export default () => {
         <div>
             <Hero />
             <WelcomeBanner />
+            <CardGrid />
         </div>
     )
 }
