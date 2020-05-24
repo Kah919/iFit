@@ -7,7 +7,7 @@ export default props => {
         <div className={ styles.card }>
             <img src={ image }></img>
             <h4> { title } </h4>
-            <h5> { caption } </h5>
+            <p> { caption } </p>
         </div>
     )
 }

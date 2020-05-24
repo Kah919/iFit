@@ -3,6 +3,7 @@ import NavBarContainer from './NavBar/NavBarContainer';
 import Hero from './Hero/Hero';
 import WelcomeBanner from './WelcomeBanner/WelcomeBanner';
 import CardGrid from './CardGrid/CardGrid';
+import Carousel from './Carousel/Carousel';
 
 
 export default () => {
@@ -11,6 +12,7 @@ export default () => {
             <Hero />
             <WelcomeBanner />
             <CardGrid />
+            <Carousel />
         </div>
     )
 }

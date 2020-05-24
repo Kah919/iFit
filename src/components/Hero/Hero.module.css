@@ -18,11 +18,12 @@
 }
 
 .text_container div {
-    font-size: 34px;
+    font-size: 28px;
 }
 
 .text_container p {
     width: 80%;
+    font-size: 12px;
 }
 
 @media only screen 

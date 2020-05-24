@@ -1,11 +1,8 @@
 import React from 'react';
 import styles from './CardGrid.module.css';
-import jillian from '../../images/jillians.jpg';
-import grand from '../../images/grand.jpg';
-import jogging from '../../images/jogging.jpg';
-import elliptical from '../../images/elliptical.jpg';
 import Card from './Card';
 import deck from './Deck';
+import Button from '../Button/Button';
 
 export default () => {
 
@@ -20,7 +17,9 @@ export default () => {
                 { createCards() }
             </div>
 
-            <button> View More </button>
+            <div className={ styles.btn_container }>
+                <Button text="View More" />
+            </div>
         </div>
     )
 }
