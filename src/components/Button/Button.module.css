@@ -7,7 +7,7 @@
     position: relative;
     cursor: pointer;
     --border-size: 2px;
-    --background-color: #0373f3;
+    --background-color: rgba(0, 151, 217, 255);
 }
 
 .btn.btn_pop::before {

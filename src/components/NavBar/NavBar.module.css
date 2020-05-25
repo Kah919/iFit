@@ -38,3 +38,17 @@
     color: gray;
     padding: 5px;
 }
+
+.top_nav_container a:hover {
+    color: gray;
+    border-bottom: 1px solid white;
+    transition: 500ms;
+    padding-bottom: 0;
+}
+
+.bot_nav_container a:hover {
+    color: black;
+    border-bottom: 1px solid gray;
+    transition: 500ms;
+    padding-bottom: 0;
+}
