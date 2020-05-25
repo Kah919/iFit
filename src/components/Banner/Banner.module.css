@@ -27,11 +27,29 @@
     color: gray;
 }
 
+@media only screen and (max-width: 640px) {
+    .welcome_container {
+        padding: 15px;
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .welcome_container p {
+        font-size: 10px;
+        margin-top: 10px;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .join_us_container  {
         display: grid;
         grid-row: 1fr 1fr;
-        width: 80%;
+        width: 100%;
+        text-align: center;
     }
-    
+
+    .join_us_container h1 {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
 }
