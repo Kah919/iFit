@@ -5,7 +5,7 @@
 
 .foot_container p, a, li, form, select {
     color: gray;
-    font-size: 8px;
+    font-size: 7px;
 }
 
 .foot_container i {
@@ -17,7 +17,7 @@
 }
 
 .left_foot, .right_foot {
-    padding: 1.5%;
+    padding: 1% 1.5%;
 }
 
 .language_picker_form select {

@@ -5,7 +5,7 @@ import styles from './NavBar.module.css';
 
 export default () => {
     return(
-        <div>
+        <div className={ styles.navbar_container }>
             <TopNavBar />
             <BottomNavBar />
         </div>
