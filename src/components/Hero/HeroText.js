@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Hero.module.css';
-
+import Fade from 'react-reveal/Fade';
 
 export default () => {
     return(
+        <Fade left>
         <div className={ styles.text_container }>
             <div> 
                 <span>WORKING OUT</span>
@@ -17,5 +18,6 @@ export default () => {
                 to guide your weight loss journey.
             </p>
         </div>
+        </Fade>
     )
 }
