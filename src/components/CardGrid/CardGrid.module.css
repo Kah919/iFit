@@ -11,12 +11,28 @@
 .card {
     display: block;
     margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px black;
+    transition: 1500ms;
+    padding: 0;
 }
 
 .card img {
     width: 200px;
     height: 200px;
+}
+
+.card img:hover {
+    width: 205px;
+    height: 205px;
+    transition: 2000ms;
+    border-radius: 5px;
 }
 
 .card p {
