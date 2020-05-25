@@ -31,3 +31,11 @@
     transition: 1000ms;
     text-shadow: -5px -5px 2px white;
 }
+
+@media only screen and (max-width: 640px) {
+    .foot_container {
+        display: grid;
+        grid-row: 1fr 1fr;
+        
+    }
+}
