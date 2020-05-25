@@ -1,0 +1,25 @@
+.welcome_container {
+    padding: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.welcome_container p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.join_us_container {
+    font-size: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    margin: 5% auto;
+}
+
+.join_us_container h1 {
+    vertical-align: middle;
+}

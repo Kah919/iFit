@@ -1,0 +1,26 @@
+.foot_container {
+    background-color: black;
+    justify-content: space-between;
+}
+
+.foot_container p, a, li, form, select {
+    color: gray;
+    font-size: 8px;
+}
+
+.foot_container i {
+    margin-left: 10px;
+}
+
+.flex, .left_foot, .right_foot, .foot_container {
+    display: flex;
+}
+
+.left_foot, .right_foot {
+    padding: 1.5%;
+}
+
+.language_picker_form select {
+    background: none;
+    border: 0;
+}

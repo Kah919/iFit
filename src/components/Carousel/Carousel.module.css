@@ -2,7 +2,7 @@
 .aws_btn {
     --slider-height-percentage: 20%;
     --slider-transition-duration: 400ms;
-    --organic-arrow-thickness: 1px;
+    --organic-arrow-thickness: 10px;
     --organic-arrow-border-radius: 30px;
     --organic-arrow-height: 30px;
     --organic-arrow-color: #26456f;
@@ -16,7 +16,7 @@
 }
 
 .carousel_container {
-    margin-bottom: 10%;
+    margin: 5% 0;
 }
 
 .carousel_container img {

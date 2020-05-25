@@ -1,8 +1,7 @@
 button {
-    padding: 12px 25px;
-    margin: 40px;
     background-color: #0373f3;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 10px;
+    padding: 10px 20px;
 }
